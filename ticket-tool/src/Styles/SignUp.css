@@ -1,51 +1,48 @@
-.signup-container {
-  background-color: #ffffff;
-  min-height: 100vh;
-  padding: 20px;
+/* Professional Color Filters */
+.image-overlay-primary {
+  background-color: #4e54c8;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
 }
 
-.signup-card {
-  border: none;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+.image-overlay-secondary {
+  background-color: #10b981;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
 }
 
-.signup-input {
-  border-radius: 8px;
-  padding: 10px 15px;
-  border: 1px solid #ced4da;
-  transition: all 0.3s ease;
+.image-overlay-accent {
+  background-color: #f59e0b;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
 }
 
-.signup-input:focus {
-  border-color: #86b7fe;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+.image-overlay-dark {
+  background-color: #1e293b;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
 }
 
-.signup-btn {
-  border-radius: 8px;
-  font-weight: 600;
-  background-color: #0d6efd;
-  border: none;
-  transition: background-color 0.3s ease;
+.icon-primary {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(55%) saturate(657%) 
+          hue-rotate(186deg) brightness(95%) contrast(90%);
 }
 
-.signup-btn:hover {
-  background-color: #0b5ed7;
+.icon-secondary {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(84%) saturate(314%) 
+          hue-rotate(89deg) brightness(94%) contrast(93%);
 }
 
-.signup-btn:disabled {
-  background-color: #6c757d;
+.icon-accent {
+  filter: brightness(0) saturate(100%) invert(85%) sepia(35%) saturate(473%) 
+          hue-rotate(355deg) brightness(96%) contrast(97%);
 }
 
-.alert {
-  border-radius: 8px;
+.icon-dark {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(5%) saturate(201%) 
+          hue-rotate(201deg) brightness(95%) contrast(87%);
 }
-
-/* Responsive adjustments */
-@media (max-width: 576px) {
-  .signup-card {
-    box-shadow: none;
-    border: 1px solid #dee2e6;
-  }
+/* SignUp.css */
+.signup-form {
+  padding: 2rem;
 }
