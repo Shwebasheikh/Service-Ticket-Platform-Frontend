@@ -1,3 +1,53 @@
+
+/* Professional Color Filters */
+.image-overlay-primary {
+  background-color: #4e54c8;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+}
+
+.image-overlay-secondary {
+  background-color: #10b981;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+}
+
+.image-overlay-accent {
+  background-color: #f59e0b;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+}
+
+.image-overlay-dark {
+  background-color: #1e293b;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+}
+
+.icon-primary {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(55%) saturate(657%) 
+          hue-rotate(186deg) brightness(95%) contrast(90%);
+}
+
+.icon-secondary {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(84%) saturate(314%) 
+          hue-rotate(89deg) brightness(94%) contrast(93%);
+}
+
+.icon-accent {
+  filter: brightness(0) saturate(100%) invert(85%) sepia(35%) saturate(473%) 
+          hue-rotate(355deg) brightness(96%) contrast(97%);
+}
+
+.icon-dark {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(5%) saturate(201%) 
+          hue-rotate(201deg) brightness(95%) contrast(87%);
+}
+/* SignUp.css */
+.signup-form {
+  padding: 2rem;
+}
+=======
 .bg-text-gradient-blue {
   background-color:rgb(17 24 39/var(--tw-bg-opacity,1));
 }
@@ -11,3 +61,4 @@
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
+
