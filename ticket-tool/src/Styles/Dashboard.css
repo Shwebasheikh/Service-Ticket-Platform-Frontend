@@ -1,0 +1,16 @@
+.dashboard-wrapper {
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  margin-left: 250px; /* Adjust according to SideNav width */
+  background-color: #f8f9fa;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}

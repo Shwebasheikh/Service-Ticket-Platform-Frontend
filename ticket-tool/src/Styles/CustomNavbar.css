@@ -1,0 +1,126 @@
+
+
+.text-gradient-blue {
+  color:rgb(17 24 39/var(--tw-bg-opacity,1));
+}
+
+
+
+/* Navbar background */
+.custom-navbar {
+  background-color: #ffffff;
+  color: #1c1e21;
+  font-family: 'Segoe UI', sans-serif;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+/* Brand styling */
+.logo-icon {
+  font-size: 1.4rem;
+  color: #f76300;
+}
+
+.tagline {
+  font-size: 0.65rem;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+/* ------------------------------------------------------------------- */
+
+/* Search bar (optional, if still needed) */
+.search-wrapper {
+  flex: 1;
+  justify-content: center;
+  max-width: 350px;
+  margin: 0 1rem;
+}
+
+.search-input {
+  border-radius: 20px;
+  padding: 6px 14px;
+  border: 1px solid #ddd;
+  background-color: #aeaeae26;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+/* Nav Links */
+.nav-link-custom {
+  color: #1c1e21 !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link-custom:hover {
+  color: #f76300 !important;
+  background-color: transparent;
+}
+
+/* Notification badge */
+.notification-badge {
+  background: #f44336;
+  color: white;
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -8px;
+}
+
+/* Profile Dropdown */
+.profile-dropdown {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.profile-dropdown:hover,
+.profile-dropdown:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Demo Button */
+.get-demo-btn {
+  background-color: #f76300;
+  border: none;
+  padding: 8px 18px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.get-demo-btn:hover {
+  background-color: #d85500;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .search-wrapper {
+    display: flex !important;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navbar-collapse {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .nav-link-custom {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+}

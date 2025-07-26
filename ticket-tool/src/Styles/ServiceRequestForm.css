@@ -3,6 +3,11 @@
     max-width: 900px;
 }
 
+.card-header{
+        background:rgb(223 119 47 / 90%);
+}
+
+
 .card {
     border: none;
     border-radius: 12px;
@@ -105,4 +110,9 @@
 .btn-lg {
     border-radius: 8px;
     font-size: 1.1rem;
+}
+
+.bg-gradient-orange {
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+  font-weight: bold;
 }

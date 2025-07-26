@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import ServiceRequestForm from "./Pages/ServiceRequestForm";
 import Dashboard from "./Pages/Dashboard";
 import EmployeePortal from "./Pages/EmployeePortal";
+import RequestTracking from "./Pages/RequestTracking";
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/newticket" element={<ServiceRequestForm />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/employee-portal" element={<EmployeePortal />} />
+          <Route path="/track" element={<RequestTracking />} />
         </Routes>
       </div>
     </Router>
@@ -25,15 +27,4 @@ function App() {
 
 export default App;
 
-// --------------------------------------------------------------------------------------------------------------------------
-// import React from 'react'
-// import CustomNavbar from './Components/CustomNavbar';
-// export default function App() {
-//   return (
-//     <>
-//       <CustomNavbar />
-//     </>
-//   )
-// }
 
-// -------------------------------------------------------------------------------------------------------------------------------

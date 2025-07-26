@@ -1,0 +1,70 @@
+/* Footer.css */
+.footer-brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #fefefe;
+}
+
+.footer-contact div {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #212529;
+}
+
+.footer-links a {
+  font-size: 0.9rem;
+  color: #6c757d !important;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #0d6efd !important;
+}
+
+.footer-subscribe-text {
+  line-height: 1.5;
+  color: #6c757d;
+}
+
+.footer-subscribe-form .form-control {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  background-color: #f8f9fa;
+}
+
+.footer-subscribe-form .btn {
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+.footer-legal-link {
+  font-size: 0.8rem;
+  color: #6c757d !important;
+  transition: color 0.2s;
+}
+
+.footer-legal-link:hover {
+  color: #0d6efd !important;
+}
+
+/* -------------------------------- */
+.bg-orange-custom {
+  background-color: #f97316; /* Tailwind orange-500 */
+  color: white; /* Optional if you want white text */
+}

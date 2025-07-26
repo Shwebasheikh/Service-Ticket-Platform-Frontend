@@ -1,0 +1,82 @@
+.login-page-container {
+  background-color: #0d1126;
+}
+
+/* Left Info Panel */
+.login-info-panel {
+  width: 50%;
+  background-color: #0d1126;
+  min-height: 100vh;
+}
+
+.login-info-panel h4 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.login-info-panel .btn-danger {
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Right Form Panel */
+.login-form-panel {
+  width: 50%;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.login-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.role-selection {
+  text-align: center;
+}
+
+.role-btn {
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.role-btn.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: white;
+  box-shadow: 0 2px 5px rgba(13, 110, 253, 0.3);
+}
+
+.login-input {
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+}
+
+.login-input:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.login-btn {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.alert {
+  border-radius: 8px;
+}
+
+.stars {
+  font-size: 1.2rem;
+}

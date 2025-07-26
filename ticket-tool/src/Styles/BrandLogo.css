@@ -1,0 +1,19 @@
+/* Logo image (orange rounded box with white icon) */
+.brand-logo-icon {
+  height: 5vh;
+  border-radius: 8px;
+  background-color: #ffffff;  
+  padding: 4px;
+}
+
+/* Brand name styling */
+.brand-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Brand container spacing if needed */
+.brand-logo {
+  text-decoration: none;
+}
